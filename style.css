@@ -1,0 +1,96 @@
+body {
+    background-color: #EDEBEB;
+}
+body {
+    font-family: 'Montserrat',  sans-serif;
+    margin: 0;
+    padding-top: 0;
+    margin-bottom: 100px;
+}
+
+h2 {
+    color: #000000;
+    font-weight: 250;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 300;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p {
+    font-weight: 200;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+.typewriteBg {
+    background-color: darkseagreen;
+    background-image: url("./typewriter.png");
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.mainHeading {
+    /* Gets Rid of Top Marigin */
+    margin-top: 0;
+    /* Rest Of Style */
+    color: #FFFFFF;
+    font-family: 'Alegreya', serif;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 200px;
+    text-align: center;
+}
+
+.archive {
+    margin-top: 15px;
+}
+
+.col-20 {
+    margin: auto 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+}
+
+.card {
+    color: #EDEBEB;
+    height: 350px;
+    background-color: #0F1917;
+    overflow-y: scroll;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+.readMore {
+    color: #EDEBEB;
+    text-align: left;
+    display: block;
+    padding-top: 13px;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    background-color: #0F1917;
+    padding-top: 0;
+}
+
+.readMore:active {
+    color: #EDEBEB;
+}
+
+.readMore:visited {
+    color: #b1defa
+}
+
+.readMore:hover {
+    font-weight: 300;
+}
+
+.extraHeight {
+    height: 370px;
+}
