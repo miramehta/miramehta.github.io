@@ -94,3 +94,34 @@ p {
 .extraHeight {
     height: 370px;
 }
+
+@media only screen and (max-width: 1340px) {
+    .col-20 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .col-20 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .col-20 {
+        margin: auto;
+    }
+    
+    .card {
+        width: 90%;
+        margin: auto;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
